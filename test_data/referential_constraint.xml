@@ -1,0 +1,8 @@
+<ReferentialConstraint Name="ref-cons-name">
+  <Principal Name="principal-name" Role="FromRole_Assoc_VH_UnitLength_Products">
+    <PropertyRef Name="Msehi"/>
+  </Principal>
+  <Dependent Name="dependent-name" Role="ToRole_Assoc_VH_UnitLength_Products">
+    <PropertyRef Name="DimUnit"/>
+  </Dependent>
+</ReferentialConstraint>
